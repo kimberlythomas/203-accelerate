@@ -49,3 +49,38 @@ Text Domain:  accelerate-theme-child
   color: #45ac9d;
   text-transform: uppercase;
 }
+
+.case-study {
+  display: flex;
+}
+
+.case-study-sidebar {
+  flex: 1;
+  margin-right: 75px;
+}
+
+.case-study-sidebar h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.5em;
+  margin-bottom: 0;
+}
+
+.case-study-sidebar h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 0.9em;
+  color: #878787;
+  margin: 0.5em 0em;
+}
+
+.case-study-sidebar h4 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 0.9em;
+  margin: 0.5em 0em;
+}
+
+.case-study-sidebar p {
+  margin: 2em 0em;
+}
