@@ -91,3 +91,24 @@ Text Domain:  accelerate-theme-child
   justify-content: space-between;
   margin-bottom: 75px;
 }
+
+.featured-work h4 {
+  text-align: center;
+}
+
+.homepage-featured-work {
+  list-style: none;
+}
+
+.individual-featured-work {
+  display: inline-block;
+  margin: 5px;
+}
+
+.individual-featured-work h3 {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  font-weight: 600;
+  font-size: 0.9em;
+  margin: 0;
+}
