@@ -84,3 +84,10 @@ Text Domain:  accelerate-theme-child
 .case-study-sidebar p {
   margin: 2em 0em;
 }
+
+.case-study-images img {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 75px;
+}
