@@ -28,7 +28,7 @@ get_header(); ?>
 
 <?php the_content(); ?>
 
-<p class="read-more-link"><a href="<?php echo $site_link; ?>">Visit Live Site ›</a></p>
+<p class="read-more-link"><a href="<?php echo $link; ?>">Visit Live Site ›</a></p>
 
 </aside>
 
@@ -43,7 +43,7 @@ get_header(); ?>
 <?php if($image_3) { 
 	echo wp_get_attachment_image( $image_3, $size );
     } ?>
-    
+
 </div></article>
 
         <?php endwhile; // end of the loop. ?>
@@ -51,7 +51,7 @@ get_header(); ?>
     </div><!-- #primary -->
 
 <nav id="navigation" class="container">
-	<div class="left"><a href="<?php echo site_url('/blog/') ?>">&larr; <span>Back to posts</span></a></div>
+	<div class="left"><a href="<?php echo site_url('/case-studies/') ?>">&larr; <span>Back to Work</span></a></div>
 </nav>
 
 <?php get_footer(); ?>
