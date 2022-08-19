@@ -255,3 +255,27 @@ i.fa {
   width: 65%;
   max-width: 960px;
 }
+
+.notfound-image {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 5em;
+}
+
+.notfound-credit {
+  font-size: 0.5em;
+  text-align: left;
+}
+
+.notfound-header {
+  font-family: "Rubik Distressed", cursive;
+  font-size: 2em;
+  color: #45ac9d;
+}
+
+.notfound-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
