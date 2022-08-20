@@ -31,9 +31,10 @@ Text Domain:  accelerate-theme-child
   width: 50%;
   float: left;
   margin-bottom: 2em;
+  margin-right: 3em;
 }
 
-.blog-post h4 {
+h4 {
   font: 700 1em/1.75 "Montserrat", "Open Sans", Arial, sans-serif;
   color: #a6a6a6;
   text-transform: uppercase;
@@ -278,4 +279,33 @@ i.fa {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.ctf-header {
+  display: none;
+}
+
+#block-5 {
+  padding-top: 0.1em;
+}
+
+#block-3 {
+  margin-top: -0.5em;
+}
+
+#block-3 h2 {
+  font-size: 1.5em;
+  margin-bottom: -0.8em;
+}
+
+.follow-us-link {
+  font-family: "Montserrat";
+  font-weight: 700;
+  color: #45ac9d;
+  text-transform: uppercase;
+}
+
+.ctf-item {
+  margin-left: -3.5em;
+  max-width: 450px;
 }

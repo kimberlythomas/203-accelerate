@@ -63,4 +63,14 @@ get_header(); ?>
 	</div>
 </section>
 
+<!-- Sidebar -->
+
+<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+<div id="secondary" class="widget-area" role="complementary">
+
+	<?php dynamic_sidebar( 'sidebar-2' ); ?>
+<p><a href="https://twitter.com/skillcrush" class="follow-us-link">Follow Us ›</a></p>
+</div>
+<?php endif; ?>
+
 <?php get_footer(); ?>
