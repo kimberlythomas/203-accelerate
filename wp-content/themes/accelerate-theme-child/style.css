@@ -309,3 +309,22 @@ i.fa {
   margin-left: -3.5em;
   max-width: 450px;
 }
+
+input {
+  font-style: italic;
+}
+
+.wp-block-search__button {
+  width: 13%;
+  border-top: 1px solid #a6a6a6;
+  border-bottom: 1px solid #a6a6a6;
+  border-right: 1px solid #a6a6a6;
+  border-left: none;
+  font: 0.875em/1.75em  "Open Sans", Arial, sans-serif;
+  height: 2.6rem;
+  background: url(../img/white-arrow-right.png) no-repeat center #45ac9d;
+  color: #ffffff;
+  margin-left: -5px;
+  padding: 0;
+  vertical-align: middle;
+}

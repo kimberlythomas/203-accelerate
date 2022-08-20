@@ -17,9 +17,7 @@
 	<?php else : ?>
 		<div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
 			<aside class="widget widget_text">
-				<div class="textwidget">
-					<p>This is a practice site for our <a href="http://skillcrush.com/">Skillcrush</a> students. <a href="https://skillcrush.com/wordpress-blueprint-package-first-to-know">We’d love to see you in class!</a></p>
-				</div>
+				<p>Welcome to our blog! You can also learn more <a href="../about">about us</a> or check out our <a href="../case-studies">work</a>.
 			</aside>
 
 			<aside class="widget widget_search">
