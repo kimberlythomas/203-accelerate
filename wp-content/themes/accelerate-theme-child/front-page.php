@@ -69,7 +69,7 @@ get_header(); ?>
 <div id="secondary" class="widget-area" role="complementary">
 
 	<?php dynamic_sidebar( 'sidebar-2' ); ?>
-<p><a href="https://twitter.com/skillcrush" class="follow-us-link">Follow Us ›</a></p>
+<p><a href="https://twitter.com" class="follow-us-link">Follow Us ›</a></p>
 </div>
 <?php endif; ?>
 
